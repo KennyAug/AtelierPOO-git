@@ -35,3 +35,4 @@ p1 = Parc(67, "Esplanade", 3)
 
 v1 = Voiture("AVME 2342", "TESLA", "Noir")
 v2 = Voiture("EUW 1292", "BMW", "Vert")
+v3 = Voiture("WEB 1305", "TOYOTA", "Gris")
