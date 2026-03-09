@@ -31,8 +31,6 @@ class Parc:
         self.placeLibres = self.capacite - len(self.listedevoiture)
         print(f"Place libres: {self.placeLibres}")
 
+p1 = Parc(67, "Esplanade", 3)
 
-
-
-
-
+v1 = Voiture("AVME 2342", "TESLA", "Noir")
