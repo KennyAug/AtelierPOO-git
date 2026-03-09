@@ -19,3 +19,11 @@ class Parc:
             print("Pas de [lace dispo")
         else:
             self.listedevoiture.append(voiture)
+            print("Voiture ajoiutée dans le parc")
+    def sortirVoiture(self, voiture):
+        if voiture in self.listedevoiture:
+            self.listedevoiture.remove(voiture)
+            print("Voiture enlever du parc")
+            print(f"Place vides: {self.liste_de_places_vides()}")
+        else:
+            print("Voiture n'est pas au parc")
