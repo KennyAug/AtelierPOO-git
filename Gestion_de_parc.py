@@ -12,3 +12,10 @@ class Parc:
         self.adresse = adresse
         self.capacite = capacite
         self.listedevoiture = []
+    def entrerVoiture(self, voiture):
+        if voiture in self.listedevoiture:
+            print("Voiture existe déjà")
+        elif len(self.listedevoiture) >= self.capacite:
+            print("Pas de [lace dispo")
+        else:
+            self.listedevoiture.append(voiture)
