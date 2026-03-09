@@ -19,12 +19,12 @@ class Parc:
             print("Pas de [lace dispo")
         else:
             self.listedevoiture.append(voiture)
-            print("Voiture ajoiutée dans le parc")
+            print("Voiture ajoutée dans le parc")
     def sortirVoiture(self, voiture):
         if voiture in self.listedevoiture:
             self.listedevoiture.remove(voiture)
             print("Voiture enlever du parc")
-            print(f"Place vides: {self.self.calculerNbrPlaceLibres()}")
+            self.calculerNbrPlaceLibres()
         else:
             print("La voiture n'existe pas")
     def calculerNbrPlaceLibres(self):
@@ -39,4 +39,5 @@ v3 = Voiture("WEB 1305", "TOYOTA", "Gris")
 p1.entrerVoiture(v1)
 p1.entrerVoiture(v2)
 p1.entrerVoiture(v3)
-p1.sortirVoiture(v3)
+p1.sortirVoiture(v2)
+
