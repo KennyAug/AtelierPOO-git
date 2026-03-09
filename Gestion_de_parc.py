@@ -24,6 +24,15 @@ class Parc:
         if voiture in self.listedevoiture:
             self.listedevoiture.remove(voiture)
             print("Voiture enlever du parc")
-            print(f"Place vides: {self.liste_de_places_vides()}")
+            print(f"Place vides: {self.self.calculerNbrPlaceLibres()}")
         else:
-            print("Voiture n'est pas au parc")
+            print("La voiture n'existe pas")
+    def calculerNbrPlaceLibres(self):
+        self.placeLibres = self.capacite - len(self.listedevoiture)
+        print(f"Place libres: {self.placeLibres}")
+
+
+
+
+
+
