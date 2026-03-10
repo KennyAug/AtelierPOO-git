@@ -49,3 +49,6 @@ v2 = Voiture("WEIB2923", 2025, "BYD", 600)
 e1.afficherInfos()
 v1.afficherInfos()
 e1.affecterVoiture(v1)
+e1.afficherInfos()
+e1.retirerVoiture()
+
