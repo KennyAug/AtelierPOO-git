@@ -3,6 +3,7 @@ class Employe:
         self.numeroPermis = numeroPermis
         self.nom = nom
         self.prenom = prenom
+        self.voiturees = None
         self.voitureService = None
     def afficherInfos(self):
         print(f"L'employé: {self.prenom, self.nom}")
