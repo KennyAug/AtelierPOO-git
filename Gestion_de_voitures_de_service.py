@@ -21,3 +21,6 @@ class Employe:
             return
         self.voitureService = voiture
         voiture.voiturees = self
+    def retirerVoiture(self):
+        if self.voitureService == None:
+            print("Cet employe n'a pas de voiture")
