@@ -27,3 +27,17 @@ class Employe:
             return
         self.voitureService.voiturees = None
         self.voitureService = None
+class Voiture:
+    def __init__(self, matricule, annee, marque, kilometrage):
+        self.matricule = matricule
+        self.annee = annee
+        self.marque = marque
+        self.kilometrage = kilometrage
+        self.voiturees = None
+    def afficherInfos(self):
+        print(f"Voiture: {self.marque}, Matricule : {self.matricule}, Année : {self.annee}, Kilometrage : {self.kilometrage}")
+        if self.voiturees:
+            print(f"Le chauffeur est : {self.voiturees.prenom}, {self.voiturees.nom}")
+        else:
+            print("Aucun chauffeurs")
+
