@@ -47,6 +47,7 @@ e2 = Employe("B932034E", "JEANNE", "CHARLES")
 v1 = Voiture("BI827389", 2010, "BMW", 60000)
 v2 = Voiture("WEIB2923", 2025, "BYD", 600)
 
+
 e1.afficherInfos()
 v1.afficherInfos()
 e1.affecterVoiture(v1)
