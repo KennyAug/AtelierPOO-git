@@ -41,3 +41,9 @@ class Voiture:
         else:
             print("Aucun chauffeurs")
 
+e1 = Employe("B932BE9W", "JEAN", "MARC")
+e2 = Employe("B932034E", "JEANNE", "CHARLES")
+v1 = Voiture("BI827389", 2010, "BMW", 60000)
+v2 = Voiture("WEIB2923", 2025, "BYD", 600)
+
+e1.afficherInfos()
